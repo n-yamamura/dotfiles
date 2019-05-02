@@ -45,7 +45,8 @@ set incsearch
 set hlsearch
 set nowrapscan
 set nowrap
-set noshowmatch
+"set showmatch
+highlight MatchParen cterm=NONE ctermfg=white ctermbg=black
 set hidden
 set nowritebackup
 set nobackup
